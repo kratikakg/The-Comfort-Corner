@@ -5,7 +5,13 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;

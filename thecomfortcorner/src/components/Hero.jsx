@@ -1,7 +1,13 @@
 import React from "react";
 
+import { hero } from "../data";
+
 const Hero = () => {
-  return <div>Hero</div>;
+  return (
+    <section>
+      <div className="container"></div>
+    </section>
+  );
 };
 
 export default Hero;

@@ -1,8 +1,8 @@
 import styles from "./style";
 
-import { Footer, Hero, Navbar } from "./components";
-
-import "./App.css";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 const App = () => (
   <div className="w-full max-w-[1440px] mx-auto bg-white overflow-hidden">

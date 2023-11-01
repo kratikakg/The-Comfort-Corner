@@ -1,6 +1,6 @@
 import styles from "./style";
 
-import { Footer, Navbar, Hero } from "./components";
+import { Footer, Hero, Navbar } from "./components";
 
 import "./App.css";
 

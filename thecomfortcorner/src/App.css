@@ -7,3 +7,7 @@
 .bg-hero {
   background-image: url("/src/assets/hero-bg.png");
 }
+
+.bg-accent {
+  background-color: #008170;
+}

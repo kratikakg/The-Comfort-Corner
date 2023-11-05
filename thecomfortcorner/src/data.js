@@ -1,3 +1,7 @@
+//import icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
+
 // import images
 import Features1Img from "./assets/features-1.png";
 import Features2Img from "./assets/features-2.png";
@@ -74,13 +78,13 @@ export const features = {
   buttonText: "Show Now",
   items: [
     {
-      // icon: <IoIosCheckmarkCircle />,
+      icon: <FontAwesomeIcon icon={faCircleCheck} />,
       title: "Valuation Services",
       subtitle:
         "Sometimes features require a short description.  This can be detailed description",
     },
     {
-      // icon: <IoIosCheckmarkCircle />,
+      icon: <FontAwesomeIcon icon={faCircleCheck} />,
       title: "Development of Furniture Models",
       subtitle:
         "Sometimes features require a short description.  This can be detailed description",

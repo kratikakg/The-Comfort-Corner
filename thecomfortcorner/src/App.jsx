@@ -6,19 +6,16 @@ import NewItems from "./components/NewItems";
 import FeaturesSecond from "./components/FeaturesSecond";
 import Products from "./components/Products";
 import Testimonial from "./components/Testimonial";
-
+import Footer from "./components/Footer";
 const App = () => (
   <div className="w-full max-w-[1440px] mx-auto bg-white overflow-hidden">
-    <div className={`${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-        <Features />
-        <NewItems />
-        <FeaturesSecond />
-        <Products />
-        <Testimonial />
-      </div>
-    </div>
+    <Hero />
+    <Features />
+    <NewItems />
+    <FeaturesSecond />
+    <Products />
+    <Testimonial />
+    <Footer />
   </div>
 );
 

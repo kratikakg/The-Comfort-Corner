@@ -47,7 +47,7 @@ export const navigation = [
 export const hero = {
   title: "Luxurious Furniture at your fingertips",
   subtitle:
-    "Do i have consent to record this meeting gain locaion, root-and-branch, review, nor game plan who’s the goto",
+    "Illuminate your living spaces with the splash of color and a sprinkle of design. Make your dream home come true with the Comfort Corner, your destination for plush living.",
   buttonText: "Shop Now",
 };
 

@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import NewItems from "./components/NewItems";
 import FeaturesSecond from "./components/FeaturesSecond";
+import Products from "./components/Products";
+import Testimonial from "./components/Testimonial";
 
 const App = () => (
   <div className="w-full max-w-[1440px] mx-auto bg-white overflow-hidden">
@@ -13,6 +15,8 @@ const App = () => (
         <Features />
         <NewItems />
         <FeaturesSecond />
+        <Products />
+        <Testimonial />
       </div>
     </div>
   </div>
